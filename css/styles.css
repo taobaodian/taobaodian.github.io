@@ -118,10 +118,11 @@ h1, h2, h3 {
   overflow: hidden;
   top: 0;
   left: 0;
+  text-align: center;
 }
 
 .hovereffect .overlay-text {
-	font-size: 1.3rem;
+	font-size: 13px;
 	font-family: 'Crimson Text', sans-serif;
 	font-weight: 300;
 	color: #000;
