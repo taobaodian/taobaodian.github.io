@@ -122,7 +122,7 @@ h1, h2, h3 {
 }
 
 .hovereffect .overlay-text {
-	font-size: 13px;
+	font-size: 15px;
 	font-family: 'Crimson Text', sans-serif;
 	font-weight: 300;
 	color: #000;
@@ -166,7 +166,7 @@ h1, h2, h3 {
 	text-align: center;
 }
 .page-nav a,span {
-	font-size: 13px;
+	font-size: 15px;
 	font-family: 'Crimson Text', sans-serif;
 	font-weight: 300;
 	margin: 0 10px;
