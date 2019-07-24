@@ -46,13 +46,13 @@ input:focus, textarea:focus {
 .portfolio-content a {
 	color: #333;
 	text-decoration: none;
-	border-bottom: 1px solid #bbb;
+	/*border-bottom: 1px solid #bbb;*/
 }
 
 .portfolio-content a:hover {
 	color: #000;
 	text-decoration: none;
-	border-bottom: 1px solid #555;
+	/*border-bottom: 1px solid #555;*/
 }
 
 h1, h2, h3 {
@@ -171,4 +171,33 @@ h1, h2, h3 {
 	font-weight: 300;
 	margin: 0 10px;
 	color: #000;
+}
+
+.good_img {
+	width: 100%;
+	height: 100%;
+}
+
+.good_desc {
+	display: inline-block !important;
+}
+
+.good_desc_mark {
+	display: inline-block !important;
+	color: red !important;
+}
+
+.buy_div {
+	position: absolute;
+	bottom: 10px;absolute;
+}
+
+.buy_btn {
+	background-color: #ff4800;
+	color: #fff !important;
+	text-decoration: none !important;
+}
+
+.good_row {
+	margin-bottom: 30px;
 }
