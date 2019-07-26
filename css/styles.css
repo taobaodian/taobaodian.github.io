@@ -173,13 +173,24 @@ h1, h2, h3 {
 	color: #000;
 }
 
+.item {
+	float: left;
+}
+
 .good_img {
 	width: 100%;
 	height: 100%;
 }
 
 .good_desc {
-	display: inline-block !important;
+	display: block !important;
+	font-size: 0.6rem;
+	margin: 0;
+	height: 48px;
+	line-height: 16px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	margin: 5px 0px;
 }
 
 .good_desc_mark {
@@ -196,8 +207,19 @@ h1, h2, h3 {
 	background-color: #ff4800;
 	color: #fff !important;
 	text-decoration: none !important;
+	width: 40%;
+	font-size: 0.8rem;
+	padding: 0.3rem 0.5rem;
 }
 
 .good_row {
 	margin-bottom: 30px;
+}
+
+.float_left {
+	float: left;
+}
+
+.float_right {
+	float: right;
 }
